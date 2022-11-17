@@ -1,4 +1,28 @@
+@import "components";
 
-body{
+body {
   background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-left: 2px solid rgb(195, 193, 193);
+  border-right: 2px solid lightgray;
+  border-radius: 15px;
+  background: linear-gradient($bg-color-btn-secondary);
+  box-shadow: -2px -2px 4px #dadde2, 2px 2px 4px #f6f6f8;
+}
+
+.logo {
+  img {
+    margin: 0;
+    max-width: 6rem;
+    height: 100%;
+  }
 }
