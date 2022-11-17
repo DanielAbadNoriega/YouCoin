@@ -1,0 +1,20 @@
+.neumorphism-1 {
+  margin: 1rem;
+  width: 140px;
+  text-align: center;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  background: linear-gradient(315deg, #d759fa, #b54bd3);
+  box-shadow: -2px -2px 4px #9b40b4, 2px 2px 4px #f766ff;
+}
+
+body {
+  background-color: white;
+}
+
+/* Components */
+/* Styles Globals */
+
+/*# sourceMappingURL=index.css.map */
