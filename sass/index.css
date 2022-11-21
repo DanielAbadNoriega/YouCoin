@@ -1,34 +1,4 @@
 /* background-image: linear-gradient(to right top, #dadde2, #dfe2e7, #e3e7ec, #e8ecf2, #edf1f7, #f0f4f9, #f4f7fc, #f7fafe, #fafbfe, #fcfcfe, #fefeff, #ffffff); */
-/* $bg-color-btn-secondary: (
-  to right bottom,
-  #dadde2,
-  #e1e3e7,
-  #e8e9ed,
-  #eff0f2,
-  #f6f6f8,
-  #f9f9fa,
-  #fcfcfd,
-  #ffffff,
-  #ffffff,
-  #ffffff,
-  #ffffff,
-  #ffffff
-); */
-/* $bg-color-btn-secondary-hover: (
-  to right bottom,
-  #b1bdc5,
-  #c0c9d0,
-  #d0d5db,
-  #dee1e5,
-  #edeef0,
-  #f3f4f5,
-  #f9f9fa,
-  #ffffff,
-  #ffffff,
-  #ffffff,
-  #ffffff,
-  #ffffff
-); */
 .button-primary, .button-primary-s {
   margin: 1rem;
   padding: 10px 20px;
@@ -52,11 +22,11 @@
   border: none;
   border-radius: 7px;
   color: rgb(182, 182, 182);
-  background: linear-gradient(to right bottom, #dadde2, #dfe2e7, #e3e7ec, #e8ecf2, #edf1f7, #f0f4f9, #f4f7fc, #f7fafe, #fafbfe, #fcfcfe, #fefeff, #ffffff);
+  background: linear-gradient(to right bottom, #dadde2, #e1e3e7, #e8e9ed, #eff0f2, #f6f6f8, #f9f9fa, #fcfcfd, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
   box-shadow: -2px -2px 4px #dadde2, 2px 2px 4px #f6f6f8;
 }
 .button-secondary:hover, .main-menu li:hover, .button-secondary-s:hover {
-  background: linear-gradient(to right bottom, #b1bdc5, #bdc8d0, #cad3da, #d6dee5, #e3e9f0, #eaeff5, #f0f4f9, #f7fafe, #fafbfe, #fcfcfe, #fefeff, #ffffff);
+  background: linear-gradient(to right bottom, #b1bdc5, #c0c9d0, #d0d5db, #dee1e5, #edeef0, #f3f4f5, #f9f9fa, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
 }
 .button-secondary-s {
   font-size: 0.75rem;
@@ -86,7 +56,7 @@
   font-size: 1rem;
   padding: 0.6rem 0.7rem;
   border-radius: 50%;
-  background: linear-gradient(to right bottom, #dadde2, #dfe2e7, #e3e7ec, #e8ecf2, #edf1f7, #f0f4f9, #f4f7fc, #f7fafe, #fafbfe, #fcfcfe, #fefeff, #ffffff);
+  background: linear-gradient(to right bottom, #dadde2, #e1e3e7, #e8e9ed, #eff0f2, #f6f6f8, #f9f9fa, #fcfcfd, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
   box-shadow: -2px -2px 4px #dadde2, 2px 2px 4px #f6f6f8;
 }
 
@@ -140,10 +110,18 @@
   text-align: center;
 }
 
+html {
+  min-width: 100vw;
+}
+
 body {
   background-color: #fcfdff;
   margin: 0;
   padding: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .nav {
@@ -155,7 +133,7 @@ body {
   border-left: 2px solid rgb(195, 193, 193);
   border-right: 2px solid lightgray;
   border-radius: 15px;
-  background-image: linear-gradient(to right bottom, #e6eaef, #e8edf2, #ebeff4, #edf2f7, #f0f4fa, #f2f6fb, #f5f8fd, #f7fafe, #fafbfe, #fcfcfe, #fefeff, #ffffff);
+  background-image: white;
   box-shadow: -2px -2px 4px #dadde2, 2px 2px 4px #f6f6f8;
 }
 
@@ -188,9 +166,15 @@ body {
   width: 20rem;
   font-size: 3rem;
 }
+.sec-home .home-cta .home-description {
+  width: 300px;
+}
 .sec-home .home-cta .lead-magnet {
   align-items: center;
   justify-content: center;
+}
+.sec-home .home-cta .lead-magnet .input-col {
+  max-width: 200px;
 }
 
 .sec-features, .sec-onboarding .intro, .sec-benefits .intro {
@@ -310,5 +294,14 @@ body {
   font-size: 1.1rem;
 }
 
+@media (max-width: 1200px) {
+  .sec-footer-cta {
+    background-image: none;
+  }
+  .sec-footer-cta .footer-cta {
+    width: 100%;
+    text-align: center;
+  }
+}
 /* Components */
 /* Styles Globals *//*# sourceMappingURL=index.css.map */

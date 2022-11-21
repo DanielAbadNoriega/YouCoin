@@ -5,7 +5,7 @@ $bg-color-btn-primary-hover: (315deg, rgb(215, 89, 250), rgb(97, 24, 117));
 
 /* background-image: linear-gradient(to right top, #dadde2, #dfe2e7, #e3e7ec, #e8ecf2, #edf1f7, #f0f4f9, #f4f7fc, #f7fafe, #fafbfe, #fcfcfe, #fefeff, #ffffff); */
 
-/* $bg-color-btn-secondary: (
+$bg-color-btn-secondary: (
   to right bottom,
   #dadde2,
   #e1e3e7,
@@ -19,9 +19,9 @@ $bg-color-btn-primary-hover: (315deg, rgb(215, 89, 250), rgb(97, 24, 117));
   #ffffff,
   #ffffff,
   #ffffff
-); */
+);
 
-/* $bg-color-btn-secondary-hover: (
+$bg-color-btn-secondary-hover: (
   to right bottom,
   #b1bdc5,
   #c0c9d0,
@@ -34,38 +34,6 @@ $bg-color-btn-primary-hover: (315deg, rgb(215, 89, 250), rgb(97, 24, 117));
   #ffffff,
   #ffffff,
   #ffffff,
-  #ffffff
-); */
-
-$bg-color-btn-secondary: (
-  to right bottom,
-  #dadde2,
-  #dfe2e7,
-  #e3e7ec,
-  #e8ecf2,
-  #edf1f7,
-  #f0f4f9,
-  #f4f7fc,
-  #f7fafe,
-  #fafbfe,
-  #fcfcfe,
-  #fefeff,
-  #ffffff
-);
-
-$bg-color-btn-secondary-hover:(
-  to right bottom,
-  #b1bdc5,
-  #bdc8d0,
-  #cad3da,
-  #d6dee5,
-  #e3e9f0,
-  #eaeff5,
-  #f0f4f9,
-  #f7fafe,
-  #fafbfe,
-  #fcfcfe,
-  #fefeff,
   #ffffff
 );
 
