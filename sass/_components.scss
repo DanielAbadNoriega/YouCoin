@@ -3,7 +3,9 @@ $color-main: rgb(181, 75, 211);
 $bg-color-btn-primary: (315deg, rgb(215, 89, 250), rgb(181, 75, 211));
 $bg-color-btn-primary-hover: (315deg, rgb(215, 89, 250), rgb(97, 24, 117));
 
-$bg-color-btn-secondary: (
+/* background-image: linear-gradient(to right top, #dadde2, #dfe2e7, #e3e7ec, #e8ecf2, #edf1f7, #f0f4f9, #f4f7fc, #f7fafe, #fafbfe, #fcfcfe, #fefeff, #ffffff); */
+
+/* $bg-color-btn-secondary: (
   to right bottom,
   #dadde2,
   #e1e3e7,
@@ -17,8 +19,9 @@ $bg-color-btn-secondary: (
   #ffffff,
   #ffffff,
   #ffffff
-);
-$bg-color-btn-secondary-hover: (
+); */
+
+/* $bg-color-btn-secondary-hover: (
   to right bottom,
   #b1bdc5,
   #c0c9d0,
@@ -31,6 +34,38 @@ $bg-color-btn-secondary-hover: (
   #ffffff,
   #ffffff,
   #ffffff,
+  #ffffff
+); */
+
+$bg-color-btn-secondary: (
+  to right bottom,
+  #dadde2,
+  #dfe2e7,
+  #e3e7ec,
+  #e8ecf2,
+  #edf1f7,
+  #f0f4f9,
+  #f4f7fc,
+  #f7fafe,
+  #fafbfe,
+  #fcfcfe,
+  #fefeff,
+  #ffffff
+);
+
+$bg-color-btn-secondary-hover:(
+  to right bottom,
+  #b1bdc5,
+  #bdc8d0,
+  #cad3da,
+  #d6dee5,
+  #e3e9f0,
+  #eaeff5,
+  #f0f4f9,
+  #f7fafe,
+  #fafbfe,
+  #fcfcfe,
+  #fefeff,
   #ffffff
 );
 
@@ -85,9 +120,7 @@ $bg-color-btn-secondary-hover: (
     list-style: none;
     display: inline;
     font-size: 0.75rem;
-    margin: 5px;
-    /*     border-radius: 5px;
-    border-bottom: 3px solid rgba($color: lightgrey, $alpha:0.3); */
+    margin: 0.25rem;
     @extend .button-secondary;
     a {
       color: rgb(188, 183, 183);
@@ -103,7 +136,7 @@ $bg-color-btn-secondary-hover: (
 .icon-sm {
   i {
     color: $color-main;
-    font-size: 0.75rem;
+    font-size: 1rem;
     padding: 0.6rem 0.7rem;
     border-radius: 50%;
     background: linear-gradient($bg-color-btn-secondary);
@@ -111,16 +144,18 @@ $bg-color-btn-secondary-hover: (
   }
 }
 
-.feature {
+.benefit {
   display: flex;
   flex-direction: column;
   align-items: center; //en el tuto no lo incluye
-  .icon {
+  height: 100%;
+  i {
     color: $color-main;
-    font-size: 10rem;
+    font-size: 7.5rem;
     text-align: center;
   }
   .description {
+    position: relative;
     .title {
       font-size: 2rem;
       text-align: center;
@@ -133,6 +168,7 @@ $bg-color-btn-secondary-hover: (
   }
   .cta {
     margin-top: 3rem;
+    margin-bottom: 0;
     color: $color-main;
     font-weight: 600;
     text-align: center;
@@ -144,7 +180,7 @@ $bg-color-btn-secondary-hover: (
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  .icon {
+  i {
     padding: 0;
     color: $color-main;
     font-size: 10rem;
@@ -153,7 +189,7 @@ $bg-color-btn-secondary-hover: (
   .title {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: -2rem;
+    margin-top: -1rem;
     text-align: center;
   }
 }
